@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik/Rubik-Medium.woff2") format("woff2"),
+    url("../fonts/Rubik/Rubik-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik/Rubik-Regular.woff2") format("woff2"),
+    url("../fonts/Rubik/Rubik-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*Header section*/
+.header-bc {
+  background-color: #f6f6f6;
+  padding: 30px 0;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.namanganliklar {
+  display: flex;
+  align-items: center;
+}
+.searching {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.poisk {
+  position: relative;
+}
+.logo {
+  margin-right: 10px;
+}
+.currency {
+  list-style: none;
+  display: flex;
+}
+.currency-item {
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  height: 19px;
+  color: #555555;
+}
+.item-logo {
+  margin-left: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  width: 69px;
+  height: 19px;
+  color: #2959ce;
+}
+#search {
+  padding: 15px 35px 13px 41px;
+  background: #ffffff;
+  border-radius: 60px;
+  border: 1px solid white;
+}
+.lupa {
+  position: absolute;
+  left: 15px;
+  bottom: 12px;
+}
+.lang {
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+.uz {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding: 7px 7px;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #000000;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.ru {
+  padding: 11px 10px 13px 41px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #a6a6a6;
+  background-color: #dce6ff;
+  border-radius: 39px;
+}
+.header-btn {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  width: 49px;
+  background: #7296ec;
+  border-radius: 10px;
+  padding: 13px 20px;
+  width: 89px;
+  height: 45px;
+  border: 1px solid #7296ec;
+}
+.header-btn:hover {
+  color: #7296ec;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+/*End of header section*/
+/*Main section*/
+.main-bc {
+  background-color: #eeeeee;
+}
+.news-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-types {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #7f7f7f;
+  height: 21px;
+}
+.menu-types:hover{
+  cursor: pointer;
+}
+.line {
+  width: 1200px;
+  height: 0px;
+  border: 1px solid #d1d1d1;
+  margin: 20px auto 40px;
+}
+.ads {
+  margin-bottom: 50px;
+}
+.main-mews {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  row-gap: 10px;
+}
+.main-news-items {
+  background: #f6f6f6;
+  border-radius: 15px;
+  width: 393px;
+  height: 382px;
+  padding: 20px 17px 0;
+}
+.main-news-topic {
+  width: 358px;
+  height: 78px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+.main-news-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4a4b4c;
+  width: 346px;
+  height: 66px;
+}
+.mini-data {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+.small-logo {
+  margin-right: 10px;
+}
+.resources-time {
+  font-weight: 400;
+  font-size: 12px;
+  color: #5e5f61;
+  height: 14px;
+}
+/*End of Main section*/
